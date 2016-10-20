@@ -1,0 +1,16 @@
+/* Bring in Settings */
+@import 'settings';
+/* 
+ * AQUI ENTRAM OS ESTILOS BASE
+ */
+
+body{
+    color: $cor-texto;
+}
+
+/*
+ * AQUI TERMINAM OS ESTILOS BASE
+ */
+@import 'mobile';
+@import 'tablet';
+@import 'desktop';
